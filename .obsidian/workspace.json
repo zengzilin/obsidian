@@ -8,29 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c33b27e8a12c2730",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深圳与tiqmo互通的网络方案.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "深圳与tiqmo互通的网络方案"
-            }
-          },
-          {
             "id": "eaa8676a8008d58a",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260512103238.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260512103238"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           },
           {
@@ -77,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tiqmo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +82,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深圳与tiqmo互通的网络方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +111,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "深圳与tiqmo互通的网络方案 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -207,58 +189,61 @@
       "bases:新建数据库": false
     }
   },
-  "active": "c33b27e8a12c2730",
+  "active": "367f0c8e5a190d7e",
   "lastOpenFiles": [
-    "RabbitMQ-Helm升级密码报错与Secret误删恢复.md",
-    "Pasted image 20260512104604.png",
-    "Pasted image 20260512104325.png",
-    "Pasted image 20260512104031.png",
-    "Pasted image 20260512104018.png",
-    "Pasted image 20260512103848.png",
-    "Pasted image 20260512103735.png",
-    "Pasted image 20260512103238.png",
-    "深圳与tiqmo互通的网络方案.md",
-    "Pasted image 20260512103346.png",
-    "未命名 7.base",
-    "Pasted image 20260512103105.png",
-    "Pasted image 20260512102843.png",
-    "未命名.md",
-    "CF加密套件自定义实施配置指南.md",
-    "未命名 6.base",
-    "未命名 5.base",
-    "未命名 4.base",
-    "apm报错索引文档数量过多.md",
-    "在Docker部署的GitLab环境中，若要让gitlab.rb配置生效但不重启所有服务，可通过以下步骤实现：.md",
-    "未命名 1.base",
-    "未命名 2.base",
-    "未命名 3.base",
-    "未命名 2.canvas",
-    "windows查看文件md5值的命令.md",
-    "_var_lib_containers_storage_overlay磁盘空间清理.md",
-    "未命名.base",
-    "单机安装redis-集群.md",
-    "创建sftp用户和in目录.md",
-    "创建ingressnginxrbac.md",
-    "创建gitlab容器仓库secret.md",
-    "创建链接.md",
-    "查询nfs新增文件.md",
-    "安装nfsserver.md",
-    "安装fuse和gcsfuse.md",
-    "修改配置重装calico.md",
-    "文档中多了空白页怎么删除.md",
+    "00-入口/README.md",
+    "00-入口/欢迎.md",
+    "00-入口/index.md",
+    "90-附件/未命名.canvas",
+    "90-附件/未命名.base",
+    "90-附件/未命名 8.base",
+    "90-附件/未命名 7.base",
+    "90-附件/未命名 6.base",
+    "90-附件/未命名 5.base",
+    "90-附件/未命名 4.base",
+    "90-附件/未命名 3.canvas",
+    "90-附件/未命名 3.base",
+    "90-附件/未命名 2.base",
+    "90-附件/未命名 1.canvas",
+    "90-附件/未命名 1.base",
+    "90-附件/wsl_status.txt",
+    "90-附件/Pasted image 20260512104604.png",
+    "90-附件/Pasted image 20260512104325.png",
+    "90-附件/Pasted image 20260512104031.png",
+    "90-附件/Pasted image 20260512104018.png",
+    "90-附件/Pasted image 20260512103848.png",
+    "90-附件/Pasted image 20260512103735.png",
+    "90-附件/Pasted image 20260512103346.png",
+    "90-附件/Pasted image 20260512103238.png",
+    "90-附件/Pasted image 20260512103105.png",
+    "90-附件/Pasted image 20260512102843.png",
+    "06-中间件/清理redis容器数据.md",
+    "04-容器与镜像/清理cri-o或containerd的磁盘目录文件.md",
+    "01-Linux与系统/海外192.168.1.19centos6.9升级openssh版本为8.9.md",
+    "01-Linux与系统/格式化并挂载一个5T的磁盘.md",
+    "01-Linux与系统/查询nfs新增文件.md",
+    "05-可观测性/查看kubelet组件日志或者容器日志.md",
+    "01-Linux与系统/服务器上安装rsync服务.md",
+    "08-DevOps与工具/服务pod获取shell权限，用于安装想要的命令.md",
+    "04-容器与镜像/普通用户授权管理docker.md",
+    "06-中间件/数据库操作.md",
+    "05-可观测性/批量清理docker容器日志文件内容.md",
+    "08-DevOps与工具/批量创建argocdapp.md",
+    "04-容器与镜像/将镜像打标签并推送到威富通jforg仓库.md",
+    "05-可观测性/容器启动prometheus报错‘openingstoragefailed_lockDBdirectory_resourcetemporarilyunavailable’.md",
+    "07-网络与安全/实施HSTS.md",
+    "01-Linux与系统/安装nfsserver.md",
+    "01-Linux与系统/安装fuse和gcsfuse.md",
+    "08-DevOps与工具/基础组件部署命令.md",
+    "03-云平台/在服务项目中的共享VPC网络上创建实例.md",
+    "08-DevOps与工具/在Docker部署的GitLab环境中，若要让gitlab.rb配置生效但不重启所有服务，可通过以下步骤实现：.md",
+    "07-网络与安全/合成完整域名证书链.md",
+    "06-中间件/单机安装redis-集群.md",
+    "01-Linux与系统/创建sftp用户和in目录.md",
     "未命名 1.canvas",
     "未命名.canvas",
-    "2026-05-09.md",
+    "未命名 2.canvas",
     "未命名 3.canvas",
-    "ELK磁盘使用量到达到限制水位.md.md",
-    "linux/rocky linux sudo su 异常变慢.md",
-    "KMIDDeploymentDocument.md",
-    "argocd/agocdautopilot相关操作.md",
-    "linux/Redhat linux添加注册订阅.md",
-    "容器/dockermanagement, gke-gcsfuse-sidecar (init), datadog-init-apm-inject (init), dat.md",
-    "rsync同步生产和灾备的数据.md",
-    "KMIDDeploymentDocument_media/media",
-    "KMIDDeploymentDocument_media",
     "ELK/filebeat修改 应用日志jason解析格式报错.canvas"
   ]
 }

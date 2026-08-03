@@ -1,0 +1,16 @@
+[Unit]
+Description=Mount GCS bucket tiqmo-p-wallyt-logs-bucket with gcsfuse
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/mkdir -p /mnt/tiqmo_logs
+ExecStart=/usr/bin/gcsfuse --foreground -o allow_other --implicit-dirs --stat-cache-ttl 10s --type-cache-ttl 10s --file-mode=777 --dir-mode=777 tiqmo-p-wallyt-logs-bucket /mnt/tiqmo_logs
+ExecStop=/bin/fusermount -u /mnt/tiqmo_logs
+Restart=always
+RestartSec=5
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

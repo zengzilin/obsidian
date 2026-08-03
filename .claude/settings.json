@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(python -)",
+      "Read(//d/公司相关文档/tiqmo-kw项目/ext/**)",
+      "Bash(bash -n \"D:/公司相关文档/tiqmo-kw项目/ext/upload-swiftpass-jars.sh\")"
+    ],
+    "additionalDirectories": [
+      "D:\\公司相关文档\\tiqmo-kw项目\\ext"
+    ]
+  }
+}
